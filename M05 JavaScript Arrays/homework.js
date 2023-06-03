@@ -3,23 +3,35 @@
 function devolverPrimerElemento(array) {
    // Retornar el primer elemento del arreglo recibido por parámetro.
    // Tu código:
+   return array[0]
 }
+console.log(devolverPrimerElemento(["Hola", 64564, true]))
 
 function devolverUltimoElemento(array) {
    // Retornar el último elemento del arreglo recibido por parámetro.
    // Tu código:
+   return array[array.length-1]
 }
+console.log(devolverUltimoElemento(["Hola", 64564, true]))
 
 function obtenerLargoDelArray(array) {
    // Retornar la longitud del arreglo recibido por parámetro.
    // Tu código:
+   return array.length
 }
+console.log(obtenerLargoDelArray(["Hola", 64564, true]))
 
 function incrementarPorUno(array) {
    // El arreglo recibido por parámetro contiene números.
    // Retornar un arreglo con los elementos incrementados en +1.
    // Tu código:
+   var nuevoArray = []
+   for (var i = 0; i < array.length; i++) {
+      nuevoArray.push(array[0, 1, 2]+ 1)
+      return nuevoArray 
+   }
 }
+console.log(incrementarPorUno([12,25,11]))
 
 function agregarItemAlFinalDelArray(array, elemento) {
    // Agrega el "elemento" al final del arreglo recibido.
